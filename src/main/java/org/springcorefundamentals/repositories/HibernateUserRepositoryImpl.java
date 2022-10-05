@@ -14,6 +14,9 @@ public class HibernateUserRepositoryImpl implements UserRepository{
         User user1 = new User("Saikiran","M.");
         User user2 = new User("Bhavya","Ch.");
 
+        list.add(user1);
+        list.add(user2);
+
         return list;
     }
 }
